@@ -4,6 +4,7 @@
 
     })
     .done(function(vis, layers) {
+      console.log('update')
       // layer 0 is the base layer, layer 1 is cartodb layer
       // setInteraction is disabled by default
       layers[1].setInteraction(true);
